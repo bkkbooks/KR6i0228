@@ -1,0 +1,38 @@
+canonical_identifier: bkk:krp/KR6i0228/T/v1
+canonical_location: https://kanripo.org/bkk/KR6i0228/T/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 佛說大自在天子因地經
+  identifiers:
+    krp: KR6i0228
+    cbeta: T15n0594
+    cbeta_old_id: T15n0594
+    authorityid: CA0000716
+    json_key: T0594
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T15/T15n0594.xml
+    old_id: T15n0594
+  edition:
+    short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0228_000-T.yaml, hash: 'sha256:3674c56f84956d1fb41197eb431d24c24a5a5a2109cf35e7e9057e568573737a'}
+  - {seq: 1, filename: KR6i0228_001-T.yaml, hash: 'sha256:1265003fe67039a747709adbad9be13c3147fa43640c278da02c4fccacacc9c3'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6i0228_000-T.markers.yaml, hash: 'sha256:d4e3bbfc67a1ed48cfcfa1376c866d3817e22be825e791e82c0124046e7a79a3'}
+  - {seq: 1, role: markers, filename: assets/KR6i0228_001-T.markers.yaml, hash: 'sha256:b1e4dc8e3cb1210a87172dbb92c507bc655f1399e7f28be3bc1c13779a16ce2b'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6i0228_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 3178
+  label: 佛說大自在天子因地經
+  type: juan
+  level: 1
+hash: sha256:6332f2953c220803d50df518571346b11f898870298e169926b413aa0d712d4f
