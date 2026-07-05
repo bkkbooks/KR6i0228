@@ -34,9 +34,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6i0228_000.yaml, hash: 'sha256:3674c56f84956d1fb41197eb431d24c24a5a5a2109cf35e7e9057e568573737a'}
-  - {seq: 1, filename: KR6i0228_001.yaml, hash: 'sha256:1e635a76692fcd33636df7720831cd310e8a8465eff929d26508797885b69336'}
+  - {seq: 1, filename: KR6i0228_001.yaml, hash: 'sha256:1265003fe67039a747709adbad9be13c3147fa43640c278da02c4fccacacc9c3'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6i0228_001.markers.yaml, hash: 'sha256:2df8e7cb3a235fb8a971d492175f0357ed556e97eec5d60b955af96f3495447d'}
+  - {seq: 0, role: markers, filename: assets/KR6i0228_000.markers.yaml, hash: 'sha256:0bd275afc3dd2c55a6704a7cdd134a6054fa295178fcb5810f470e4d20e564a8'}
+  - {seq: 1, role: markers, filename: assets/KR6i0228_001.markers.yaml, hash: 'sha256:8e8e6150203c8927bad0e6f9f38b9a0d49cb40121b17c8f688ce2f3048d8b673'}
 table_of_contents:
 - ref:
     seq: 1
@@ -48,7 +49,4 @@ table_of_contents:
   label: 佛說大自在天子因地經
   type: juan
   level: 1
-hash: sha256:ff70475f2f3088838372cc55e1d0ed4150bd19297952ea0f1aa8d81a940ebf64
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:679debd2f284a3fc1aea892155c611940904073c0b1f6e092bde569a89e74b19
