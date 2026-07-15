@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6i0228/v1
 canonical_location: https://kanripo.org/bkk/KR6i0228/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 佛說大自在天子因地經
   identifiers:
@@ -34,10 +34,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6i0228_000.yaml, hash: 'sha256:3674c56f84956d1fb41197eb431d24c24a5a5a2109cf35e7e9057e568573737a'}
-  - {seq: 1, filename: KR6i0228_001.yaml, hash: 'sha256:1265003fe67039a747709adbad9be13c3147fa43640c278da02c4fccacacc9c3'}
+  - {seq: 1, filename: KR6i0228_001.yaml, hash: 'sha256:da0622c142c6fd226cca3150eda5dc590f060770940b2c559b9327d0a24392b4'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6i0228_000.markers.yaml, hash: 'sha256:0bd275afc3dd2c55a6704a7cdd134a6054fa295178fcb5810f470e4d20e564a8'}
-  - {seq: 1, role: markers, filename: assets/KR6i0228_001.markers.yaml, hash: 'sha256:8e8e6150203c8927bad0e6f9f38b9a0d49cb40121b17c8f688ce2f3048d8b673'}
+  - {seq: 1, role: markers, filename: assets/KR6i0228_001.markers.yaml, hash: 'sha256:a5ddddaf314ef1cc495b825ef1187e0e750575d0fafa58e0f4b89f2724f522fe'}
 table_of_contents:
 - ref:
     seq: 1
@@ -49,4 +49,7 @@ table_of_contents:
   label: 佛說大自在天子因地經
   type: juan
   level: 1
-hash: sha256:679debd2f284a3fc1aea892155c611940904073c0b1f6e092bde569a89e74b19
+hash: sha256:9f696208706891cfe1e69e68a96595ad7de773ae4c2cc33b156f591f87fedc14
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
